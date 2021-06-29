@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #eae9e4;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+body .navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+}
+
+body .main {
+  width: 75vw;
+  height: 100vh;
+  position: absolute;
+  top: 57%;
+  left: 48%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .main .emerge {
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 540px) {
+  body .main .emerge h5 {
+    width: 55vw;
+  }
+}
+
+body .main .emerge #barab {
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 540px) {
+  body .main .emerge #barab {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+body .main .emerge button {
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  width: 100px;
+  height: 28px;
+  font-size: 13px;
+}
+
+body .main .statistical button {
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  width: 100px;
+  height: 28px;
+  font-size: 13px;
+}
+
+body .main .statistical #barab {
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 540px) {
+  body .main .statistical #barab {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
